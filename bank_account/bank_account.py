@@ -9,6 +9,9 @@ class BankAccount:
             raise ValueError("Deposit amount must be positive")
         self.balance += amount
 
+    def death():
+        print("I am dead")
+
     def withdraw(self, amount):
         if amount <= 0:
             raise ValueError("Withdraw amount must be positive")
